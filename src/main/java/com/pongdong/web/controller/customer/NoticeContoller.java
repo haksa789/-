@@ -18,7 +18,7 @@ public class NoticeContoller {
 	private NoticeService noticeService;
 
 	@RequestMapping("list")
-	public String list(@RequestParam(name = "p",defaultValue ="1") int page) throws ClassNotFoundException, SQLException {
+	public String list(@RequestParam(name = "p",defaultValue = "1") Integer page) throws ClassNotFoundException, SQLException {
 
 		//String p = request.getParameter("p");
 		System.out.println("page : " + page);
